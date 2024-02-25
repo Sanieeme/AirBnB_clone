@@ -1,12 +1,19 @@
-.article	{
+article	{
 	width: 390px;
 	padding: 20px;
 	margin: 20px;
 	border #FF5A5F 1px;
 	border-radius: 4px;
+	text-align: center;
+	display: inline-block;
 }
-h2	{
+article h2	{
+	padding-top: 0;
+	padding-bottom: 0;
 	font-size: 30px;
-	align: center;
+	text-align: center;
+}
+#title	{
+	font-size:30px;
 }
 
