@@ -1,4 +1,9 @@
-div .popover	{
+.location,
+.amenities	{
+	position: relative
+}
+
+.popover	{
 	display: 0;
 	background-color: #FAFAFA;
 	width: 100%;
@@ -8,4 +13,16 @@ div .popover	{
 
 h2	{
 	font-size 16px;
+}
+
+ul li	{
+	text-indent: 12px;
+}
+
+.location:hover .popover,
+.amenities:hover .popover	{
+	display: block;
+	background-colour: #FAFAFA;
+	border-radius: 4px;
+	border: 1px solid #DDDDDD;
 }

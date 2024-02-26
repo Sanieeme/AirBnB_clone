@@ -4,24 +4,30 @@
 	min-width: 60px;
 	height: 60px;
 	font-size: 30px;
-	margin-right: top;
+	margin-left: 40px;
 }
 .information	{
 	height: 80px;
-	border: top and bottom #DDDDDD 1px
+	border-top: #DDDDDD 1px;
+	margin-top: 10px;
+	border-bottom: #DDDDDD 1px;
 }
 .max_guest	{
 	width: 100px;
-	icon
+	height: 100%;
 }
 .number_rooms	{
 	width: 100px;
-	icon
+	height: 100%;
 }
 .number_bathrooms	{
 	width: 100px;
-	icon
+	height: 100%;
 }
 .user	{
 	text-bolder: 100%;
+}
+
+.description	{
+	text-align: left;
 }
